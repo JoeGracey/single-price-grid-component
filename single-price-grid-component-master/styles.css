@@ -3,30 +3,57 @@ html {
   text-align: center;
 }
 
-.all-three {
-  border: 1px solid black;
-}
-
 .top-div {
   background-color: #e5eff5;
   width: 50%;
   height: 175px;
   margin: 0 auto;
   bottom: -20px;
+  text-align: left;
+}
+
+.thirty-day {
+  color: #99b229;
+}
+
+.top-div-text {
+  color: #999999;
 }
 
 .left-div {
-  background-color: #218e8c;
+  background-color: #1a7170;
   width: 25%;
   height: 225px;
   display: inline-block;
   position: relative;
-  bottom: 3px;
   left: 2px;
+  bottom: 6px;
+}
+
+.left-text {
+  font-family: sans-serif;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.dollar {
+  
+}
+
+.full-access {
+  font-size: .85em;
+}
+
+.per-month {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 5px;
+  bottom: 3px;
+  color: #bcbcbc;
 }
 
 .right-div {
-  background-color: #2ab2af;
+  background-color: #218e8c;
   width: 25%;
   height: 225px;
   display: inline-block;
@@ -34,13 +61,41 @@ html {
   right: 2px;
 }
 
+.right-text {
+  font-family: sans-serif;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.right-div-p {
+  font-size: .75em;
+  line-height: .5;
+  color: #bcbcbc;
+}
+
 .button {
   background-color: #99b229;
   border: none;
   color: #e5eff5;
-  padding: 15px 32px;
+  padding: 15px 82px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.full-access {
+  color: #bcbcbc;
+}
+
+h2 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  color: #bcbcbc;
+}
+
+h4 {
+  margin: 25px auto 25px auto;
+  color: #bcbcbc;
 }
