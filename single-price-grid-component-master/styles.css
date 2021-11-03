@@ -1,0 +1,46 @@
+html {
+  background-color: #98a6bd;
+  text-align: center;
+}
+
+.all-three {
+  border: 1px solid black;
+}
+
+.top-div {
+  background-color: #e5eff5;
+  width: 50%;
+  height: 175px;
+  margin: 0 auto;
+  bottom: -20px;
+}
+
+.left-div {
+  background-color: #218e8c;
+  width: 25%;
+  height: 225px;
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+  left: 2px;
+}
+
+.right-div {
+  background-color: #2ab2af;
+  width: 25%;
+  height: 225px;
+  display: inline-block;
+  position: relative;
+  right: 2px;
+}
+
+.button {
+  background-color: #99b229;
+  border: none;
+  color: #e5eff5;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
