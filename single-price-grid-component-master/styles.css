@@ -7,17 +7,22 @@ html {
   background-color: #e5eff5;
   width: 50%;
   height: 175px;
-  margin: 0 auto;
-  bottom: -20px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
+}
+
+.top-div-text {
+  top: 30px;
+  position: relative;
+  font-family: sans-serif;
+  color: #999999;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .thirty-day {
   color: #99b229;
-}
-
-.top-div-text {
-  color: #999999;
 }
 
 .left-div {
@@ -27,7 +32,7 @@ html {
   display: inline-block;
   position: relative;
   left: 2px;
-  bottom: 6px;
+  bottom: 7px;
 }
 
 .left-text {
@@ -37,11 +42,14 @@ html {
 }
 
 .dollar {
-  
+
 }
 
 .full-access {
-  font-size: .85em;
+  position: relative;
+  font-size: .90em;
+  margin-bottom: 20px;
+  top: -10px;
 }
 
 .per-month {
@@ -82,6 +90,8 @@ html {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .full-access {
@@ -93,6 +103,10 @@ h2 {
   position: relative;
   display: inline-block;
   color: #bcbcbc;
+}
+
+h3 {
+  color: #1a7170;
 }
 
 h4 {
